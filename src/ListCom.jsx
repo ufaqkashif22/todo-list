@@ -11,7 +11,7 @@ export default function ListCom(props) {
   
     <div className='todo_style'>
     <span onClick={cutIt}><DeleteIcon className='icon-remove-sign' /></span>
-      <li style={{textDecoration:line ? "line-through" :"none"}}>{props.text}</li>
+      <li style={{textDecoration:line ? "line-through" :"none"}}>-{props.text}-</li>
     </div>
   )
 }
